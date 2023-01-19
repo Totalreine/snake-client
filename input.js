@@ -26,6 +26,12 @@ const setupInput = function (conn) {
     if(key === "\u0061") {
     connection.write("Move: left");
     }
+    if(key === "\u0072") {
+    connection.write("Say: Hello");
+    }
+    if(key === "\u0074") {
+    connection.write("Say: bye");
+    }
     
   };
 
