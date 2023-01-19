@@ -19,6 +19,7 @@ const connect = function () {
     conn.write("Name: JCE");
   });
 
+
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
